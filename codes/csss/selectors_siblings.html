@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            background-color: white;
+        }
+
+        /* .parents > h3 ~ h3 {  기준태그(h3)의 마지막 태그*/
+        /* .parents > h3 + div { 기준태그(h3)의 바로 옆의 태그 */
+        .parents > .childtwo > h3 + div { 
+            color: blueviolet;
+            border: 1px dotted black;
+            background-color: gainsboro;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="parents">
+        <h3>Start Parents</h3>
+        <div class="childone">
+            <h3>Child one</h3>
+        </div>
+        <div class="childtwo">
+            <h3>Child two</h3>
+            <div>Grandchild two-one</div>
+            <div>Grandchild two-two</div>
+        </div>
+        <div class="childthree">
+            <h3>Child three</h3>
+            <div>Grandchild three-one</div>
+            <div>Grandchild three-two</div>
+        </div>
+        <h3>End Parents</h3>
+    </div>
+</body>
+</html>

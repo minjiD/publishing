@@ -1,0 +1,35 @@
+h3 {
+    background-color: white;
+}
+
+/* h3:hover {
+    background-color: blueviolet;
+} */
+
+.parents > .childtwo > h3 + div { 
+    color: blueviolet;
+    border: 1px dotted black;
+    background-color: gainsboro;
+    margin: 5px;
+}
+
+button {
+    font-size: 40px;
+    border: 1px solid red;
+    /* border-radius: 10px 20px 30px 40px; */
+    border-radius: 10px 20px; /*대각선*/
+}
+
+span {
+    color: tomato;
+    max-width: 5px;
+    background-color: blueviolet;
+}
+
+.span-second:hover {
+    display: none;
+}
+
+.span-third:hover {
+    visibility: hidden;
+}

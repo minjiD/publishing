@@ -1,0 +1,111 @@
+.header-class {
+    background-color: rgb(48, 46, 46);
+    color: white;
+}
+
+.header-con {
+    display: flex;
+    margin: 0 auto;
+}
+
+.div-h4 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 2rem;
+}
+
+.div-about {
+    /* margin-right: 40%; */
+}
+
+.p-hid {
+    color: rgb(48, 46, 46);
+    width: 25rem;
+    margin: 0;
+}
+
+.con-h4 {
+    align-self: flex-end;
+}
+
+.ul-line {
+    list-style-type: none;
+    align-items: center;
+}
+
+.a-line {
+    text-decoration: underline;
+    color: white;
+}
+
+.menu-bar {
+    background-color: rgb(48, 46, 46);
+    padding: 1rem
+}
+
+.div-menu {
+    display: flex;
+    align-items: center;
+}
+
+.a-svg {
+    display: flex;
+    color: white;
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 20rem;
+    text-decoration: none;
+    width: 15rem;
+}
+
+.svg-class {
+    margin-right: 0.3rem;
+}
+
+.text-section {
+    text-align: center;
+    width: 25rem;
+    margin: 0 auto;
+}
+
+.main-btn {
+    background-color: #0d6efd;
+    border-radius: 0.3rem;
+    padding: 6px 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.sec-btn {
+    background-color: #6c757d;
+    border-radius: 0.3rem;
+    padding: 6px 11px;
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+   
+    
+}
+
+.div-class {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin: 3rem;
+/*     
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: row;
+    border: 1px soloid #6c757d; */
+
+}
+
+.tb-div {
+    width: 100px;
+    max-width: 100%;
+    min-width: 30%;
+    align-items: center;
+    padding: 1rem;
+}

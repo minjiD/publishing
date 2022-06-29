@@ -8,14 +8,24 @@
     margin: 0 auto;
 }
 
+.div-contact {
+    padding: 1.5rem 0;
+    margin-left: 0.3rem;
+    flex: 0 0 auto;
+    width: 33.3%;
+}
+
+.div-about {
+    padding: 1.5rem 0;
+    margin-left: 3.5rem;
+    flex: 0 0 auto;
+    width: 58.3%;
+}
+
 .div-h4 {
     font-size: 1.5rem;
     text-align: left;
     margin: 2rem;
-}
-
-.div-about {
-    /* margin-right: 40%; */
 }
 
 .p-hid {
@@ -60,6 +70,25 @@
 
 .svg-class {
     margin-right: 0.3rem;
+    margin-left: 3.5rem;
+}
+
+.btn-class {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    line-height: 1;
+    color: white;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 0.2rem;
+    padding: 1.5rem;
+    text-align: right;
+    margin-left: 30rem;
 }
 
 .text-section {
@@ -85,27 +114,47 @@
 }
 
 .container {
-   
-    
+    width: auto;
 }
 
 .div-class {
     display: flex;
     flex-wrap: wrap;
-    
     margin: 3rem;
-/*     
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-direction: row;
-    border: 1px soloid #6c757d; */
-
+    justify-content: center;
 }
 
 .tb-div {
-    width: 100px;
-    max-width: 100%;
-    min-width: 30%;
-    align-items: center;
+    width: 20rem;
+    max-width: 1500px;
+    min-width: 50px;
     padding: 1rem;
+    margin: 1rem;
+    border: 1px solid gray;
+    border-radius: 0.3rem;
+    text-align: left;
+}
+
+.class-footer {
+    padding: 3rem 3rem;
+    text-align: left;
+}
+
+.footer-class {
+    max-width: 1500px;
+    width: auto;
+}
+
+.float-class {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.back-class {
+    margin-bottom: 0.25rem;
+}
+
+.str-class {
+    margin-bottom: 0;
 }
